@@ -21,6 +21,7 @@ namespace Amora.Droid
 
 		public ImageAdapter() : base()
 		{
+			//Teste
 		}
 
 		public override Java.Lang.Object InstantiateItem(ViewGroup container, int position)
