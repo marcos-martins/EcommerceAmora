@@ -1,0 +1,62 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amora", "Amora\Amora.csproj", "{949D9D5F-BC57-442A-BA18-2395DEBB620A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amora.Droid", "Droid\Amora.Droid.csproj", "{2AFA7462-7C14-4ACD-A855-021D203EC251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amora.iOS", "iOS\Amora.iOS.csproj", "{76116532-AAA8-4086-B043-188D3D0DA1C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Release|iPhone.Build.0 = Release|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{949D9D5F-BC57-442A-BA18-2395DEBB620A}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Release|iPhone.Build.0 = Release|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{2AFA7462-7C14-4ACD-A855-021D203EC251}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Release|Any CPU.Build.0 = Release|iPhone
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Release|iPhone.ActiveCfg = Release|iPhone
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Release|iPhone.Build.0 = Release|iPhone
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{76116532-AAA8-4086-B043-188D3D0DA1C1}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
+		$1.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal

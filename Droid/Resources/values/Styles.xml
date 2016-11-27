@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>  
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo"></style>  
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">  
+        <item name="colorPrimary">#FCE4EC</item>  
+        <item name="colorPrimaryDark">#F48FB1</item>  
+    </style>  
+
+	<style name="Theme.Splash" parent="android:Theme">
+      <item name="android:windowBackground">@drawable/Splash</item>
+      <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
