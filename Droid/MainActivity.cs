@@ -13,7 +13,7 @@ namespace Amora.Droid
 {
 	
 	[Activity(Label = "Amora", Theme = "@style/Theme.DesignDemo", MainLauncher = false, Icon = "@mipmap/icon",
-	ScreenOrientation = ScreenOrientation.Portrait)]
+	          ScreenOrientation = ScreenOrientation.Portrait,NoHistory = false)]
 	public class MainActivity : AppCompatActivity
 	{
 		DrawerLayout drawerLayout;
@@ -36,9 +36,9 @@ namespace Amora.Droid
 				setupDrawerContent(navigationView);
 
 
-			SupportActionBar.SetDisplayShowTitleEnabled(false);
+			SupportActionBar.SetDisplayShowTitleEnabled(true);
 			SupportActionBar.SetHomeButtonEnabled(true);
-
+			SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 
 			/*var fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
 			fab.Click += (sender, e) =>

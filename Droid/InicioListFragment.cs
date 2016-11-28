@@ -1,10 +1,10 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Android.Support.V4.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.V4.App;
+
 using Android.Support.V7.Widget;
 using Android.Util;
 using Android.Views;
@@ -13,28 +13,29 @@ using Square.Picasso;
 
 namespace Amora.Droid
 {
+	
 	public class InicioListFragment : Fragment
 	{
 		SimpleStringRecyclerViewAdapter adapter;
 		public override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
-
+			this.Activity.Title = "Categoria";
 			// Create your fragment here
 		}
 
 		public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 		{
-			
+
 			var v = inflater.Inflate(
 				Resource.Layout.fragment_inicio_list, container, false);
 			var rv = v.JavaCast<RecyclerView>();
 			new System.Threading.Thread(new System.Threading.ThreadStart(() =>
 			{
-			   Activity.RunOnUiThread(() =>
-			{
-			setupRecyclerView(rv);
-					});
+				Activity.RunOnUiThread(() =>
+			 {
+				 setupRecyclerView(rv);
+			 });
 			})).Start();
 			return rv;
 
@@ -43,7 +44,7 @@ namespace Amora.Droid
 		void setupRecyclerView(RecyclerView recyclerView)
 		{
 			List<Categoria> list = new List<Categoria>();
-			list.Add(new Categoria {Descricao="Teste",Imagem="Tipo1" });
+			list.Add(new Categoria { Descricao = "Teste", Imagem = "Tipo1" });
 			list.Add(new Categoria { Descricao = "Teste", Imagem = "Tipo2" });
 			list.Add(new Categoria { Descricao = "Teste", Imagem = "Tipo3" });
 			recyclerView.SetLayoutManager(new LinearLayoutManager(recyclerView.Context));
@@ -57,7 +58,7 @@ namespace Amora.Droid
 			TypedValue typedValue = new TypedValue();
 			int background;
 			List<Categoria> values;
-			FragmentActivity parent;
+			Android.Support.V4.App.FragmentActivity parent;
 
 			public class ViewHolder : RecyclerView.ViewHolder
 			{
@@ -96,7 +97,7 @@ namespace Amora.Droid
 			public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
 			{
 				var view = LayoutInflater.From(parent.Context)
-				                         .Inflate(Resource.Layout.inicio_item, parent, false);
+										 .Inflate(Resource.Layout.inicio_item, parent, false);
 				view.SetBackgroundResource(background);
 				return new ViewHolder(view);
 			}
@@ -124,20 +125,20 @@ namespace Amora.Droid
 				{
 					case "Tipo1":
 						img = Resource.Drawable.tipo1;
-					break;
+						break;
 					case "Tipo2":
 						img = Resource.Drawable.tipo2;
-					break;
+						break;
 					case "Tipo3":
 						img = Resource.Drawable.tipo3;
-					break;
+						break;
 					default:
 						break;
 				}
 
 				Picasso.With(parent)
-				       .Load(img)
-	   				   .Into(h.ImageView);
+					   .Load(img)
+						  .Into(h.ImageView);
 
 				//h.ImageView.SetImageResource(Cheeses.GetRandomCheeseResource(parent));
 			}

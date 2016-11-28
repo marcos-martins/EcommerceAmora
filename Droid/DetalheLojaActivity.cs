@@ -6,6 +6,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V4.View;
@@ -16,7 +17,7 @@ using V7Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace Amora.Droid
 {
-	[Activity(Label = "Detalhe",Theme = "@style/Theme.DesignDemo",ParentActivity = typeof(MainActivity))]
+	[Activity(Label = "Detalhe",Theme = "@style/Theme.DesignDemo",ParentActivity = typeof(MainActivity),ScreenOrientation = ScreenOrientation.Portrait)]
 	public class DetalheLojaActivity : AppCompatActivity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
@@ -37,6 +38,9 @@ namespace Amora.Droid
 
 			ImageAdapter adapter = new ImageAdapter(this,imagens);
 			viewPager.Adapter = adapter;
+
+			SupportActionBar.SetHomeButtonEnabled(true);
+			SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 			// Create your application here
 		}
 	}

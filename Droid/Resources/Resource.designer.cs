@@ -2167,8 +2167,8 @@ namespace Amora.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a0088
-			public const int action0 = 2131361928;
+			// aapt resource value: 0x7f0a0089
+			public const int action0 = 2131361929;
 			
 			// aapt resource value: 0x7f0a0062
 			public const int action_bar = 2131361890;
@@ -2194,8 +2194,8 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0063
 			public const int action_context_bar = 2131361891;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int action_divider = 2131361932;
+			// aapt resource value: 0x7f0a008d
+			public const int action_divider = 2131361933;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_divider = 2131361796;
@@ -2248,11 +2248,11 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a004b
 			public const int buttonPanel = 2131361867;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int cancel_action = 2131361929;
+			// aapt resource value: 0x7f0a008a
+			public const int cancel_action = 2131361930;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int card_view_loja = 2131361921;
+			// aapt resource value: 0x7f0a0082
+			public const int card_view_loja = 2131361922;
 			
 			// aapt resource value: 0x7f0a0010
 			public const int center = 2131361808;
@@ -2266,8 +2266,8 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0059
 			public const int checkbox = 2131361881;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int chronometer = 2131361935;
+			// aapt resource value: 0x7f0a0090
+			public const int chronometer = 2131361936;
 			
 			// aapt resource value: 0x7f0a0013
 			public const int clip_horizontal = 2131361811;
@@ -2311,8 +2311,8 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0032
 			public const int disableHome = 2131361842;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int drawer_layout = 2131361925;
+			// aapt resource value: 0x7f0a0086
+			public const int drawer_layout = 2131361926;
 			
 			// aapt resource value: 0x7f0a0064
 			public const int edit_query = 2131361892;
@@ -2320,8 +2320,8 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0015
 			public const int end = 2131361813;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int end_padder = 2131361940;
+			// aapt resource value: 0x7f0a0095
+			public const int end_padder = 2131361941;
 			
 			// aapt resource value: 0x7f0a001d
 			public const int enterAlways = 2131361821;
@@ -2368,8 +2368,8 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0046
 			public const int image = 2131361862;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int info = 2131361939;
+			// aapt resource value: 0x7f0a0094
+			public const int info = 2131361940;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int item_touch_helper_previous_elevation = 2131361793;
@@ -2377,11 +2377,11 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0019
 			public const int left = 2131361817;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int line1 = 2131361933;
+			// aapt resource value: 0x7f0a008e
+			public const int line1 = 2131361934;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int line3 = 2131361937;
+			// aapt resource value: 0x7f0a0092
+			public const int line3 = 2131361938;
 			
 			// aapt resource value: 0x7f0a0030
 			public const int listMode = 2131361840;
@@ -2389,11 +2389,11 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0048
 			public const int list_item = 2131361864;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int mainFrame = 2131361926;
+			// aapt resource value: 0x7f0a0087
+			public const int mainFrame = 2131361927;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int media_actions = 2131361931;
+			// aapt resource value: 0x7f0a008c
+			public const int media_actions = 2131361932;
 			
 			// aapt resource value: 0x7f0a003b
 			public const int middle = 2131361851;
@@ -2404,20 +2404,20 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a002b
 			public const int multiply = 2131361835;
 			
+			// aapt resource value: 0x7f0a0099
+			public const int nav_FeedBack = 2131361945;
+			
 			// aapt resource value: 0x7f0a0098
-			public const int nav_FeedBack = 2131361944;
-			
-			// aapt resource value: 0x7f0a0097
-			public const int nav_about = 2131361943;
-			
-			// aapt resource value: 0x7f0a0095
-			public const int nav_home = 2131361941;
+			public const int nav_about = 2131361944;
 			
 			// aapt resource value: 0x7f0a0096
-			public const int nav_shop = 2131361942;
+			public const int nav_home = 2131361942;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int nav_view = 2131361927;
+			// aapt resource value: 0x7f0a0097
+			public const int nav_shop = 2131361943;
+			
+			// aapt resource value: 0x7f0a0088
+			public const int nav_view = 2131361928;
 			
 			// aapt resource value: 0x7f0a0075
 			public const int navigation_header_container = 2131361909;
@@ -2440,14 +2440,14 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0025
 			public const int pin = 2131361829;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int produto_descricao = 2131361924;
-			
-			// aapt resource value: 0x7f0a0082
-			public const int produto_imagem = 2131361922;
+			// aapt resource value: 0x7f0a0085
+			public const int produto_descricao = 2131361925;
 			
 			// aapt resource value: 0x7f0a0083
-			public const int produto_valor = 2131361923;
+			public const int produto_imagem = 2131361923;
+			
+			// aapt resource value: 0x7f0a0084
+			public const int produto_valor = 2131361924;
 			
 			// aapt resource value: 0x7f0a0007
 			public const int progress_circular = 2131361799;
@@ -2557,8 +2557,8 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a001b
 			public const int start = 2131361819;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int status_bar_latest_event_content = 2131361930;
+			// aapt resource value: 0x7f0a008b
+			public const int status_bar_latest_event_content = 2131361931;
 			
 			// aapt resource value: 0x7f0a005c
 			public const int submenuarrow = 2131361884;
@@ -2569,11 +2569,11 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0031
 			public const int tabMode = 2131361841;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int text = 2131361938;
+			// aapt resource value: 0x7f0a0093
+			public const int text = 2131361939;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int text2 = 2131361936;
+			// aapt resource value: 0x7f0a0091
+			public const int text2 = 2131361937;
 			
 			// aapt resource value: 0x7f0a0054
 			public const int textSpacerNoButtons = 2131361876;
@@ -2581,8 +2581,8 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a007a
 			public const int text_input_password_toggle = 2131361914;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int time = 2131361934;
+			// aapt resource value: 0x7f0a008f
+			public const int time = 2131361935;
 			
 			// aapt resource value: 0x7f0a004a
 			public const int title = 2131361866;
@@ -2619,6 +2619,9 @@ namespace Amora.Droid
 			
 			// aapt resource value: 0x7f0a0080
 			public const int view_pager1 = 2131361920;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int view_pager2 = 2131361921;
 			
 			// aapt resource value: 0x7f0a0040
 			public const int withText = 2131361856;

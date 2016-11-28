@@ -16,13 +16,13 @@ using Square.Picasso;
 
 namespace Amora.Droid
 {
-	[Activity(Label = "LojaListFragment")]
+	
 	public class LojaListFragment : Android.Support.V4.App.Fragment
 	{
 		public override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
-
+			this.Activity.Title = "Shop";
 			// Create your fragment here
 		}
 

@@ -28,7 +28,7 @@ namespace Amora.Droid
 		{
 			ImageView imageView = new ImageView(context);
 
-			Picasso.With(context).Load(_imagePaths[position]).Into(imageView);
+			Picasso.With(context).Load(_imagePaths[position]).Fit().Into(imageView);
 
 			((ViewPager)container).AddView(imageView, 0);
 
