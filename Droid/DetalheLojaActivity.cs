@@ -41,6 +41,10 @@ namespace Amora.Droid
 
 			SupportActionBar.SetHomeButtonEnabled(true);
 			SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+
+			var descricaoItem = FindViewById<TextView>(Resource.Id.descricao_item);
+			descricaoItem.Text = "Blusa florida na cor branca no tamanho 38 de algodão excelente para sair a noite.";
+
 			// Create your application here
 		}
 	}

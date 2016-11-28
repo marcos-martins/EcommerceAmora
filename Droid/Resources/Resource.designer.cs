@@ -2293,6 +2293,9 @@ namespace Amora.Droid
 			// aapt resource value: 0x7f0a0047
 			public const int default_activity_button = 2131361863;
 			
+			// aapt resource value: 0x7f0a0080
+			public const int descricao_item = 2131361920;
+			
 			// aapt resource value: 0x7f0a0072
 			public const int design_bottom_sheet = 2131361906;
 			
@@ -2337,6 +2340,9 @@ namespace Amora.Droid
 			
 			// aapt resource value: 0x7f0a0058
 			public const int expanded_menu = 2131361880;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int fab = 2131361921;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int fill = 2131361814;
@@ -2616,12 +2622,6 @@ namespace Amora.Droid
 			
 			// aapt resource value: 0x7f0a007f
 			public const int view_pager = 2131361919;
-			
-			// aapt resource value: 0x7f0a0080
-			public const int view_pager1 = 2131361920;
-			
-			// aapt resource value: 0x7f0a0081
-			public const int view_pager2 = 2131361921;
 			
 			// aapt resource value: 0x7f0a0040
 			public const int withText = 2131361856;
