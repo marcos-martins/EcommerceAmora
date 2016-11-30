@@ -117,6 +117,8 @@ namespace Amora.Droid
 					Android.Support.V4.App.Fragment d = new LojaListFragment();
 					parent.SupportFragmentManager.BeginTransaction().Replace(Resource.Id.mainFrame, d).Commit();
 
+
+
 				});
 
 				h.View.Click += h.ClickHandler;
@@ -138,8 +140,9 @@ namespace Amora.Droid
 
 				Picasso.With(parent)
 					   .Load(img)
-						  .Into(h.ImageView);
-
+				       .Resize(700, 700).CenterInside()
+					   .Into(h.ImageView);
+				//System.GC.Collect();
 				//h.ImageView.SetImageResource(Cheeses.GetRandomCheeseResource(parent));
 			}
 

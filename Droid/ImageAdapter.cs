@@ -27,8 +27,10 @@ namespace Amora.Droid
 		public override Java.Lang.Object InstantiateItem(ViewGroup container, int position)
 		{
 			ImageView imageView = new ImageView(context);
+			//imageView.Layout();
 
-			Picasso.With(context).Load(_imagePaths[position]).Fit().Into(imageView);
+
+			Picasso.With(context).Load(_imagePaths[position]).Into(imageView);
 
 			((ViewPager)container).AddView(imageView, 0);
 

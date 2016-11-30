@@ -143,16 +143,17 @@ namespace Amora.Droid
 					//intent.PutExtra(MainActivity.EXTRA_NAME, h.BoundString);
 					//intent.SetFlags(ActivityFlags.ReorderToFront);
 					context.StartActivity(intent);
+
+
 				});
 
 				h.View.Click += h.ClickHandler;
 
 				Picasso.With(parent)
 					   .Load("http://sessaolegal.com.br/img/fotos/vestidos%20estilosos%201.jpg")
-				       .Resize(250, 250)
-				       .CenterInside()
-	   				  .Into(h.ImageView);
-
+				        .Resize(700, 700).CenterInside()
+				       .Into(h.ImageView);
+				//System.GC.Collect();
 				//h.ImageView.SetImageResource(Cheeses.GetRandomCheeseResource(parent));
 			}
 
